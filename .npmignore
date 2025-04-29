@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+
+# Git files
+.git/
+
+# Package-lock file
+package-lock.json

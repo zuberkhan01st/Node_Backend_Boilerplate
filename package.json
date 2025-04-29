@@ -1,14 +1,38 @@
 {
-  "name": "node_express_backend",
-  "version": "1.0.0",
-  "description": "Backend",
+  "name": "node-mvc-starter",
+  "version": "1.0.3",
+  "description": "A ready-to-use Node.js + Express + MongoDB backend boilerplate following the MVC pattern.",
   "main": "app.js",
   "type": "commonjs",
+  "bin": {
+    "node-mvc-starter": "./bin/create-my-backend.js"
+  },
   "scripts": {
     "start": "nodemon app.js",
     "dev": "nodemon app.js",
     "test": "NODE_ENV=test jest --watchAll"
   },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mvc",
+    "backend",
+    "boilerplate"
+  ],
+  "author": "Zuber Khan",
+  "license": "MIT",
+  "files": [
+    "app.js",
+    "config",
+    "controllers",
+    "middleware",
+    "models",
+    "routes",
+    "services",
+    "README.md",
+    "bin"
+  ],
   "dependencies": {
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
@@ -16,6 +40,7 @@
     "dotenv": "16.3.1",
     "express": "^4.21.2",
     "express-rate-limit": "^7.5.0",
+    "fs-extra": "^11.3.0",
     "helmet": "^8.1.0",
     "jsonwebtoken": "9.0.2",
     "mongoose": "^8.13.2",
