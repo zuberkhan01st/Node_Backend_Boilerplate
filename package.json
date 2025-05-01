@@ -45,7 +45,9 @@
     "jsonwebtoken": "9.0.2",
     "mongoose": "^8.13.2",
     "morgan": "^1.10.0",
-    "path": "^0.12.7"
+    "nodemailer": "^6.10.1",
+    "path": "^0.12.7",
+    "sib-api-v3-sdk": "^8.5.0"
   },
   "devDependencies": {
     "jest": "29.7.0",
