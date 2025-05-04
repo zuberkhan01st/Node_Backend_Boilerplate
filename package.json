@@ -1,6 +1,6 @@
 {
   "name": "node-mvc-starter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A ready-to-use Node.js + Express + MongoDB backend boilerplate following the MVC pattern.",
   "main": "app.js",
   "type": "commonjs",
@@ -31,7 +31,9 @@
     "routes",
     "services",
     "README.md",
-    "bin"
+    "bin",
+    ".gitignore",
+    "LICENSE"
   ],
   "dependencies": {
     "bcrypt": "^5.1.1",
